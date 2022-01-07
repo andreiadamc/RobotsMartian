@@ -1,6 +1,6 @@
 # RobotsMartian
 
-List of assumptions 
+**List of assumptions**
 1. We have only one surface
 2. By default the surface has size of 50 in both directions.
 3. Something sends string commands to the Robot control center (RCC) as one peace for all robots at once.
@@ -20,12 +20,12 @@ List of assumptions
 
 To estimate the project, I assume that the entire solution should include technical documents and a simple user interface as well as a core module and unit tests.
 
-Martian robots project estimate:
+**Martian robots project estimate:**
 
-  Clarify functional requirements – 1 hour
-  Create models, write unit tests and code for the core module - 9 hours
-  Write unit tests and code for the user interface - 2 hours
-  Run tests and fix bugs – 2 hours
-  Writing technical documents for the solution – 2 hours
+  * Clarify functional requirements – 1 hour
+  * Create models, write unit tests and code for the core module - 9 hours
+  * Write unit tests and code for the user interface - 2 hours
+  * Run tests and fix bugs – 2 hours
+  * Writing technical documents for the solution – 2 hours
 
-Total estimated 16 hours
+  Total estimated 16 hours
