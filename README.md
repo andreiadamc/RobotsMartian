@@ -26,6 +26,6 @@ To estimate the project, I assume that the entire solution should include techni
   * Create models, write unit tests and code for the core module - 9 hours
   * Write unit tests and code for the user interface - 2 hours
   * Run tests and fix bugs – 2 hours
-  * Writing technical documents for the solution – 2 hours
+  * Write technical documents for the solution – 2 hours
 
   Total estimated 16 hours
