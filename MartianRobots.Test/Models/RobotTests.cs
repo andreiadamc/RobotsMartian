@@ -39,11 +39,11 @@ namespace MartianRobots.Test.Models
             
             Assert.Catch<RobotNeedsSurfaceException>(() => { robot.SetInitialLocation(null, location); });
             Assert.Catch<RobotIsLostException>(() => { robot.SetInitialLocation(surface, location); });
-            var position = robot.GetPosition();
-            Assert.AreNotEqual(initX, position.X);
-            Assert.AreNotEqual(initY, position.Y);
-            var orientation = robot.GetOrientation();
-            Assert.AreEqual(initOrientation, (char)orientation);
+            Assert.Catch<RobotIsLostException>(
+                () =>
+                    {
+                        var position = robot.GetPosition();
+                    });
             Assert.Pass();
         }
     }
